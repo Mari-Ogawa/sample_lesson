@@ -12,6 +12,8 @@ gem 'rails', '5.1.4'
 gem 'sqlite3'
 # Bootstrap install
 gem 'bootstrap-sass', '3.3.1'
+# devise install
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
