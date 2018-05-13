@@ -14,6 +14,11 @@ gem 'sqlite3'
 gem 'bootstrap-sass', '3.3.1'
 # devise install
 gem 'devise'
+# generate users and emails
+gem 'faker', '1.1.2'
+# Pagenation
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
