@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   :registrations => "registrations"
 }
 
-  resources :users, only: [:show]
+  resources :users, only: [:show, :index]
   #get 'static_pages/home'
   #get 'static_pages/help'
   #get 'static_pages/about'
